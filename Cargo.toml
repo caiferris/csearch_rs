@@ -1,0 +1,11 @@
+[package]
+name = "csearch_rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+actix-web = "4.10.2"
+clickhouse = "0.13.2"
+
+[dev-dependencies]
+clickhouse = { version = "0.13.2", features = ["test-util"] }
